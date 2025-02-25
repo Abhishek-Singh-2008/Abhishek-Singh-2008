@@ -1,6 +1,5 @@
-
 <p align="center">
-  <img src="https://files.oaiusercontent.com/file-ERKVkwxiZX4a3LAU3g5hX5?se=2025-02-25T20%3A07%3A33Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D02dc257f-66d8-412f-a1f4-a3fbf25dcb4b.webp&sig=jquFAbVQSXzyG/cinIdVjZ5ru%2BWWwO7%2BPDxxpmPSLNs%3D" alt="GitHub Banner">
+  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/refs/heads/main/DALL%C2%B7E%202025-02-26%2001.34.09%20-%20A%20highly%20detailed%2C%20futuristic%20dark-themed%20banner%20featuring%20the%20name%20'Abhishek%20Singh'%20in%20a%20sleek%2C%20modern%20font%2C%20with%20the%20tagline%20'Engineer%20by%20Passion%2C%20C.webp" alt="GitHub Banner">
 </p>
 
 
