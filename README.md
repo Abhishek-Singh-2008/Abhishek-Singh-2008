@@ -18,7 +18,7 @@
 
 <!-- About Me -->
 - 🌱 I’m currently learning **Python, DSA**  
-- 📫 How to reach me: **[LinkedIn](https://www.linkedin.com/in/abhishek-singh-2008/)**  
+- 📫 How to reach me: **[LinkedIn](https://www.linkedin.com/feed/)**  
 - ⚡ Fun fact: **I think I am a bit funny**  
 
 ---
