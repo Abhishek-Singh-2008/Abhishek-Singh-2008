@@ -14,11 +14,11 @@
   <img src="https://raw.githubusercontent.com/nag2mani/nag2mani/main/github-user-contribution.svg" alt="User Contributions" width="100%" />
 </p>
 <!-- Profile Views -->
-<p align="left"> 
+<!-- <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=abhishek-singh-2008&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" width="210" />
-</p>
+</p> -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nag2mani&label=Total%20Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" width="200"/>
+  <img src="https://komarev.com/ghpvc/?username=nag2mani&label=Total%20Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" width="210"/>
 </p>
 
 <!-- About Me -->
