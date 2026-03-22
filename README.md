@@ -11,7 +11,7 @@
   <img align="center" alt="Coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nag2mani/nag2mani/main/github-user-contribution.svg" alt="User Contributions" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=react-dark" alt="GitHub Activity Graph" width="100%" />
 </p>
 <!-- Profile Views -->
 <p align="left"> 
