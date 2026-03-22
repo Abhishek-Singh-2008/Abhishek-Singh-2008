@@ -52,14 +52,23 @@
   <a href="https://www.python.org" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
   </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" width="40" height="40"/>
-  </a>
   <a href="https://www.java.com" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
 </a>
   <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
+</a>
+  <a href="https://flask.palletsprojects.com/" target="_blank">
+  <img src="https://cdn.simpleicons.org/flask/000000" width="40" height="40"/>
+</a>
+<a href="https://numpy.org/" target="_blank">
+  <img src="https://cdn.simpleicons.org/numpy" width="40" height="40"/>
+</a>
+<a href="https://pandas.pydata.org/" target="_blank">
+  <img src="https://cdn.simpleicons.org/pandas" width="40" height="40"/>
+</a>
+<a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
+  <img src="https://cdn.simpleicons.org/python" width="40" height="40"/>
 </a>
 </p>
 
