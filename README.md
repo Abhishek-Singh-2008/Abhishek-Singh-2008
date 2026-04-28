@@ -41,7 +41,7 @@
 ---
 
 <!-- Languages and Tools -->
-<h3 align="left">Languages and Tools:</h3>
+<!-- <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://www.w3.org/html/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
@@ -70,8 +70,12 @@
 <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">
   <img src="https://cdn.simpleicons.org/python" width="40" height="40"/>
 </a>
-</p>
+</p> -->
+<h2 align="left">⚒️ Languages and Tools</h2>
 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,python,java,c,flask,numpy,pandas" />
+</p>
 ---
 
 <!-- GitHub Stats -->
