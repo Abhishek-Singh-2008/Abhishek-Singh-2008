@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 4 * * *" # Every day at 04:00 UTC
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/stats-cards.yml"
 
 permissions:
   contents: write
@@ -27,26 +32,42 @@ jobs:
 
             tmp=$(mktemp)
 
-            if curl -Lsf \
+            if curl -Ls \
               --retry 5 \
               --retry-delay 5 \
               --max-time 60 \
               -A "Mozilla/5.0" \
               "$url" \
-              -o "$tmp" && [ -s "$tmp" ]; then
+              -o "$tmp"; then
 
-              mv "$tmp" "$out"
-              echo "✅ Updated $out"
+              # Guard: only accept the file if it is actually an <svg>.
+              # This is what protects us if a service ever returns an
+              # auth wall / error / login page with a 200 status instead
+              # of the real image — we keep the last good file instead
+              # of committing broken HTML as ".svg".
+              if [ -s "$tmp" ] && head -c 200 "$tmp" | grep -qi "<svg"; then
+                mv "$tmp" "$out"
+                echo "✅ Updated $out"
+              else
+                echo "⚠️ $out response wasn't a valid SVG (keeping old file)"
+                head -c 200 "$tmp"
+                rm -f "$tmp"
+              fi
 
             else
-
               echo "⚠️ Failed $out (keeping old file)"
               rm -f "$tmp"
-
             fi
           }
 
-          BASE="https://github-readme-stats-abhishek20082005.vercel.app"
+          # Public, non-authenticated instance. The previous BASE
+          # (github-readme-stats-abhishek20082005.vercel.app) is a
+          # personal Vercel deployment sitting behind Vercel's
+          # Deployment Protection / login wall, so every "successful"
+          # curl was actually downloading the Vercel sign-in page HTML,
+          # not an SVG. That's why stats/top-langs/pins were broken.
+          BASE="https://github-readme-stats.vercel.app"
+          TROPHY_BASE="https://github-profile-trophy.vercel.app"
 
           # GitHub Stats
           fetch "$BASE/api?username=Abhishek-Singh-2008&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" assets/stats.svg
@@ -62,6 +83,11 @@ jobs:
           fetch "$BASE/api/pin/?username=Abhishek-Singh-2008&repo=Job-Market-Analysis&theme=github_dark&hide_border=true" assets/pin-job.svg
 
           fetch "$BASE/api/pin/?username=Abhishek-Singh-2008&repo=Management-App&theme=github_dark&hide_border=true" assets/pin-management.svg
+
+          # Trophies — fetched and committed as a local asset too, so the
+          # README doesn't depend on the public trophy instance being up
+          # and rate-limit-free at the exact moment someone views the page.
+          fetch "$TROPHY_BASE/?username=Abhishek-Singh-2008&theme=onedark&no-frame=true&margin-w=15&margin-h=15" assets/trophy.svg
 
       - name: Commit Updated SVGs
         run: |
