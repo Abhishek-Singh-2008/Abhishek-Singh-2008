@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Abhishek%20Singh&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%40%20E-Nest%20%7C%20MERN%20%2B%20Python&descAlignY=55&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%40+E-Nest;Learning+JavaScript%2C+TypeScript+%26+MERN;Sophomore+%40+Sitare+University;DSA+%2B+AI%2FML+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%40+E-Nest;Learning+JavaScript%2C+TypeScript+%26+MERN;Junior+%40+Sitare+University;DSA+%2B+AI%2FML+Enthusiast" alt="Typing SVG" />
 
 </div>
 
@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/github/followers/Abhishek-Singh-2008?label=Followers&style=flat&color=0e75b6" alt="Followers" />
 </p>
 
-- 🎓 Sophomore at **Sitare University**, Lucknow
+- 🎓 Junior at **Sitare University**, Lucknow
 - 💼 Currently contributing to **E-Nest** as a **Full-Stack Developer**
 - 🌱 Learning **JavaScript, TypeScript** & the **MERN stack**
 - 🛠️ Also built an E-Commerce Flask app and a few AI/notebook projects
