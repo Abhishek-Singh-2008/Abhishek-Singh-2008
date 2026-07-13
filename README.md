@@ -55,56 +55,20 @@
 ## ⭐ Featured Projects
 
 <p align="center">
-  <a href="https://github.com/Abhishek-Singh-2008/Artificial-Intelligence">
-    <img
-      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Artificial-Intelligence&theme=github_dark&hide_border=true&bg_color=00000000"
-    />
-  </a>
-
-  <a href="https://github.com/Abhishek-Singh-2008/Urban-Company-Replica">
-    <img
-      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Urban-Company-Replica&theme=github_dark&hide_border=true&bg_color=00000000"
-    />
-  </a>
+  <img src="./assets/pin-ai.svg"/>
+  <img src="./assets/pin-urban.svg"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Abhishek-Singh-2008/Job-Market-Analysis">
-    <img
-      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Job-Market-Analysis&theme=github_dark&hide_border=true&bg_color=00000000"
-    />
-  </a>
-
-  <a href="https://github.com/Abhishek-Singh-2008/Management-App">
-    <img
-      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Management-App&theme=github_dark&hide_border=true&bg_color=00000000"
-    />
-  </a>
+  <img src="./assets/pin-job.svg"/>
+  <img src="./assets/pin-management.svg"/>
 </p>
 
 ## 📊 GitHub Analytics
-<p align="center">
-  <img
-    height="180em"
-    src="https://github-readme-stats-abhishek20082005.vercel.app/api?username=Abhishek-Singh-2008&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000"
-  />
-
-  <img
-    height="180em"
-    src="https://github-readme-stats-abhishek20082005.vercel.app/api/top-langs/?username=Abhishek-Singh-2008&layout=compact&theme=github_dark&hide_border=true&langs_count=8&bg_color=00000000"
-  />
-</p>
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact&hide_border=true"
-  />
+  <img src="./assets/stats.svg" height="180"/>
+  <img src="./assets/top-langs.svg" height="180"/>
 </p>
 
 <p align="center">
