@@ -1,0 +1,47 @@
+name: Update Stats Cards
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch cards (keep old file if a fetch fails)
+        run: |
+          mkdir -p assets
+
+          fetch() {
+            url="$1"; out="$2"
+            tmp=$(mktemp)
+            if curl -sf "$url" -o "$tmp" && [ -s "$tmp" ]; then
+              mv "$tmp" "$out"
+              echo "updated $out"
+            else
+              echo "fetch failed for $out, keeping previous version"
+              rm -f "$tmp"
+            fi
+          }
+
+          fetch "https://github-readme-stats.vercel.app/api?username=Abhishek-Singh-2008&show_icons=true&theme=dark&cache_seconds=86400" assets/stats.svg
+          fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-Singh-2008&layout=compact&theme=dark&cache_seconds=86400" assets/top-langs.svg
+          fetch "https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Artificial-Intelligence&theme=dark" assets/pin-ai.svg
+          fetch "https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=E-Commerce-Website&theme=dark" assets/pin-ecom.svg
+          fetch "https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Python&theme=dark" assets/pin-python.svg
+          fetch "https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=SEIR_Projects&theme=dark" assets/pin-seir.svg
+          fetch "https://github-profile-trophy.vercel.app/?username=Abhishek-Singh-2008&theme=darkhub&no-frame=true&column=7&margin-w=8" assets/trophies.svg
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --staged --quiet || git commit -m "Update stats cards"
+          git push
