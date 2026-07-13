@@ -2,24 +2,22 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Abhishek%20Singh&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20Intern%20%40%20E-Nest%20%7C%20MERN%20%2B%20Python&descAlignY=55&descSize=18" width="100%"/>
-
+<p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Junior+%40+Sitare+University;Learning+JavaScript%2C+TypeScript+%26+MERN;DSA+%2B+AI%2FML+Enthusiast;Object+Oriented+Programming" alt="Typing SVG" />
-
-</div>
-<!-- <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,100:58A6FF&text=Abhishek%20Singh&fontColor=ffffff&fontSize=52&animation=fadeIn&desc=Full-Stack%20Developer%20Intern%20@%20E-Nest%20|%20AI%20%26%20ML%20Explorer&descAlignY=60"/>
-</p> -->
-
+</p>
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=850&lines=Full-Stack+Developer+Intern+%40+E-Nest;Building+MERN+and+Python+Applications;Exploring+Artificial+Intelligence%2C+Machine+Learning+and+LLMs;Always+Learning+Something+New+%F0%9F%9A%80"/>
 </p>
-
+</div>
 <p align="center">
 <img width="420" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <img width="100%" src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/output/ocean.gif"/>
+</p> -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </p>
 
 ## 🚀 About Me
@@ -57,34 +55,63 @@
 ## ⭐ Featured Projects
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Artificial-Intelligence&theme=github_dark"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=SEIR_Projects&theme=github_dark"/>
+  <a href="https://github.com/Abhishek-Singh-2008/Artificial-Intelligence">
+    <img
+      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Artificial-Intelligence&theme=github_dark&hide_border=true&bg_color=00000000"
+    />
+  </a>
+
+  <a href="https://github.com/Abhishek-Singh-2008/Urban-Company-Replica">
+    <img
+      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Urban-Company-Replica&theme=github_dark&hide_border=true&bg_color=00000000"
+    />
+  </a>
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=urban-company-replica&theme=github_dark"/>
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=job-market-analysis&theme=github_dark"/>
+  <a href="https://github.com/Abhishek-Singh-2008/Job-Market-Analysis">
+    <img
+      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Job-Market-Analysis&theme=github_dark&hide_border=true&bg_color=00000000"
+    />
+  </a>
+
+  <a href="https://github.com/Abhishek-Singh-2008/Management-App">
+    <img
+      src="https://github-readme-stats-abhishek20082005.vercel.app/api/pin/?username=Abhishek-Singh-2008&repo=Management-App&theme=github_dark&hide_border=true&bg_color=00000000"
+    />
+  </a>
 </p>
 
 ## 📊 GitHub Analytics
-
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Abhishek-Singh-2008&show_icons=true&theme=github_dark&hide_border=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-Singh-2008&layout=compact&theme=github_dark&hide_border=true"/>
+  <img
+    height="180em"
+    src="https://github-readme-stats-abhishek20082005.vercel.app/api?username=Abhishek-Singh-2008&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=00000000"
+  />
+
+  <img
+    height="180em"
+    src="https://github-readme-stats-abhishek20082005.vercel.app/api/top-langs/?username=Abhishek-Singh-2008&layout=compact&theme=github_dark&hide_border=true&langs_count=8&bg_color=00000000"
+  />
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
+  <img
+    src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"
+  />
 </p>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact"/>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact&hide_border=true"
+  />
 </p>
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Abhishek-Singh-2008&theme=algolia&no-frame=true&row=1&column=6"/>
+  <img
+    src="https://github-profile-trophy.vercel.app/?username=Abhishek-Singh-2008&theme=algolia&no-frame=true&no-bg=true&row=1&column=6"
+  />
 </p>
-
 > "Code. Learn. Build. Repeat."
 
 <p align="center">
