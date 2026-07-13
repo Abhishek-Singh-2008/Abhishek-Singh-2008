@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Abhishek%20Singh&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20Intern%20%40%20E-Nest%20%7C%20MERN%20%2B%20Python&descAlignY=55&descSize=18" width="100%"/>
@@ -28,6 +27,14 @@
 - 🌱 Learning **Next.js, TypeScript, MERN, Scikit-learn**
 - 🧠 Interested in LLM Applications, Data Analysis and Intelligent Web Apps
 - 📫 **Email:** abhisinghjnv143@gmail.com
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Abhishek-Singh-2008&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/followers/Abhishek-Singh-2008?style=for-the-badge&logo=github"/>
+
+<img src="https://img.shields.io/github/stars/Abhishek-Singh-2008?affiliations=OWNER&style=for-the-badge"/>
+</p>
 
 ## 🌐 Connect
 
@@ -70,7 +77,13 @@
   <img src="./assets/stats.svg" height="180"/>
   <img src="./assets/top-langs.svg" height="180"/>
 </p>
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
+</p>
 
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact&hide_border=true"/>
+</p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Abhishek-Singh-2008&theme=onedark&no-frame=true&margin-w=15&margin-h=15"/>
 </p>
