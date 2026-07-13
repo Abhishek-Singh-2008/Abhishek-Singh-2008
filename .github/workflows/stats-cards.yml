@@ -21,7 +21,9 @@ jobs:
           fetch() {
             url="$1"; out="$2"
             tmp=$(mktemp)
-            if curl -sf "$url" -o "$tmp" && [ -s "$tmp" ]; then
+            if curl -sfL --retry 3 --retry-delay 5 -m 30 \
+              -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36" \
+              "$url" -o "$tmp" && [ -s "$tmp" ]; then
               mv "$tmp" "$out"
               echo "updated $out"
             else
@@ -42,6 +44,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/*.svg
-          git diff --staged --quiet || git commit -m "Update stats cards"
-          git push
+          if ls assets/*.svg 1> /dev/null 2>&1; then
+            git add assets/*.svg
+            git diff --staged --quiet || git commit -m "Update stats cards"
+            git push
+          else
+            echo "No SVG files to commit"
+          fi
