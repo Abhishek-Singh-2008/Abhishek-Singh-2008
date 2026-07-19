@@ -1,0 +1,203 @@
+<svg width="920" height="200" viewBox="0 0 920 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="cardClip"><rect x="0" y="0" width="920" height="200" rx="18"/></clipPath>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050914"/><stop offset="100%" stop-color="#0d1e3f"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
+    <style>text { user-select:none; }</style>
+  </defs>
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="920" height="200" fill="url(#bgGrad)"/>
+    <g stroke="rgba(56,217,255,0.35)" stroke-width="0.5" opacity="0.12">
+      <line x1="0" y1="0" x2="0" y2="200"/><line x1="40" y1="0" x2="40" y2="200"/><line x1="80" y1="0" x2="80" y2="200"/><line x1="120" y1="0" x2="120" y2="200"/><line x1="160" y1="0" x2="160" y2="200"/><line x1="200" y1="0" x2="200" y2="200"/><line x1="240" y1="0" x2="240" y2="200"/><line x1="280" y1="0" x2="280" y2="200"/><line x1="320" y1="0" x2="320" y2="200"/><line x1="360" y1="0" x2="360" y2="200"/><line x1="400" y1="0" x2="400" y2="200"/><line x1="440" y1="0" x2="440" y2="200"/><line x1="480" y1="0" x2="480" y2="200"/><line x1="520" y1="0" x2="520" y2="200"/><line x1="560" y1="0" x2="560" y2="200"/><line x1="600" y1="0" x2="600" y2="200"/><line x1="640" y1="0" x2="640" y2="200"/><line x1="680" y1="0" x2="680" y2="200"/><line x1="720" y1="0" x2="720" y2="200"/><line x1="760" y1="0" x2="760" y2="200"/><line x1="800" y1="0" x2="800" y2="200"/><line x1="840" y1="0" x2="840" y2="200"/><line x1="880" y1="0" x2="880" y2="200"/><line x1="920" y1="0" x2="920" y2="200"/>
+    </g>
+    
+    <g transform="translate(76.66666666666667,108) scale(0.4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" from="0.65" to="1"
+        begin="0.30s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.34 1.56 0.64 1"/>
+      <g transform="scale(2.5)">
+        <circle r="34" fill="rgba(10,22,48,0.55)" stroke="#ffcf5c" stroke-width="1.4" opacity="0.9"/>
+        <circle r="34" fill="none" stroke="#ffcf5c" stroke-width="6" opacity="0.25" filter="url(#glow)"/>
+        
+      <g transform="translate(0,-3)">
+        <path d="M -14,-16 L 14,-16 L 12,-2 C 12,7 6,12 0,12 C -6,12 -12,7 -12,-2 Z" fill="#ffcf5c" opacity="0.9"/>
+        <path d="M -14,-16 C -22,-16 -22,-4 -13,-2" fill="none" stroke="#ffcf5c" stroke-width="2.4"/>
+        <path d="M 14,-16 C 22,-16 22,-4 13,-2" fill="none" stroke="#ffcf5c" stroke-width="2.4"/>
+        <rect x="-4" y="12" width="8" height="6" fill="#ffcf5c"/>
+        <rect x="-10" y="18" width="20" height="4" rx="2" fill="#ffcf5c"/>
+      </g>
+        <circle cx="20" cy="-20" r="11" fill="#050914" stroke="#ffcf5c" stroke-width="1.4"/>
+        <text x="20" y="-16" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="9" font-weight="800" fill="#ffcf5c">A+</text>
+      </g>
+      <text x="0" y="70" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="8" fill="#8ea3c9" transform="scale(2.5)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.4s" fill="freeze"/>
+      </text>
+    </g>
+    <text x="76.66666666666667" y="168" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="12" fill="#8ea3c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.4s" fill="freeze"/>
+      Stars
+    </text>
+    <rect x="44.66666666666667" y="60" width="64" height="64" fill="url(#shineGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="2.6s" begin="1.30s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-70,0; 70,0" dur="2.6s" begin="1.30s" repeatCount="indefinite"/>
+    </rect>
+    <g transform="translate(230.0,108) scale(0.4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.48s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" from="0.65" to="1"
+        begin="0.48s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.34 1.56 0.64 1"/>
+      <g transform="scale(2.5)">
+        <circle r="34" fill="rgba(10,22,48,0.55)" stroke="#22e8ff" stroke-width="1.4" opacity="0.9"/>
+        <circle r="34" fill="none" stroke="#22e8ff" stroke-width="6" opacity="0.25" filter="url(#glow)"/>
+        
+      <g transform="translate(0,-3)">
+        <path d="M -14,-16 L 14,-16 L 12,-2 C 12,7 6,12 0,12 C -6,12 -12,7 -12,-2 Z" fill="#22e8ff" opacity="0.9"/>
+        <path d="M -14,-16 C -22,-16 -22,-4 -13,-2" fill="none" stroke="#22e8ff" stroke-width="2.4"/>
+        <path d="M 14,-16 C 22,-16 22,-4 13,-2" fill="none" stroke="#22e8ff" stroke-width="2.4"/>
+        <rect x="-4" y="12" width="8" height="6" fill="#22e8ff"/>
+        <rect x="-10" y="18" width="20" height="4" rx="2" fill="#22e8ff"/>
+      </g>
+        <circle cx="20" cy="-20" r="11" fill="#050914" stroke="#22e8ff" stroke-width="1.4"/>
+        <text x="20" y="-16" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="9" font-weight="800" fill="#22e8ff">A</text>
+      </g>
+      <text x="0" y="70" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="8" fill="#8ea3c9" transform="scale(2.5)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.4s" fill="freeze"/>
+      </text>
+    </g>
+    <text x="230.0" y="168" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="12" fill="#8ea3c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.73s" dur="0.4s" fill="freeze"/>
+      Commits
+    </text>
+    <rect x="198.0" y="60" width="64" height="64" fill="url(#shineGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="2.6s" begin="1.48s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-70,0; 70,0" dur="2.6s" begin="1.48s" repeatCount="indefinite"/>
+    </rect>
+    <g transform="translate(383.33333333333337,108) scale(0.4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.66s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" from="0.65" to="1"
+        begin="0.66s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.34 1.56 0.64 1"/>
+      <g transform="scale(2.5)">
+        <circle r="34" fill="rgba(10,22,48,0.55)" stroke="#ff5fa8" stroke-width="1.4" opacity="0.9"/>
+        <circle r="34" fill="none" stroke="#ff5fa8" stroke-width="6" opacity="0.25" filter="url(#glow)"/>
+        
+      <g transform="translate(0,-3)">
+        <path d="M -14,-16 L 14,-16 L 12,-2 C 12,7 6,12 0,12 C -6,12 -12,7 -12,-2 Z" fill="#ff5fa8" opacity="0.9"/>
+        <path d="M -14,-16 C -22,-16 -22,-4 -13,-2" fill="none" stroke="#ff5fa8" stroke-width="2.4"/>
+        <path d="M 14,-16 C 22,-16 22,-4 13,-2" fill="none" stroke="#ff5fa8" stroke-width="2.4"/>
+        <rect x="-4" y="12" width="8" height="6" fill="#ff5fa8"/>
+        <rect x="-10" y="18" width="20" height="4" rx="2" fill="#ff5fa8"/>
+      </g>
+        <circle cx="20" cy="-20" r="11" fill="#050914" stroke="#ff5fa8" stroke-width="1.4"/>
+        <text x="20" y="-16" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="9" font-weight="800" fill="#ff5fa8">B+</text>
+      </g>
+      <text x="0" y="70" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="8" fill="#8ea3c9" transform="scale(2.5)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.4s" fill="freeze"/>
+      </text>
+    </g>
+    <text x="383.33333333333337" y="168" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="12" fill="#8ea3c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.91s" dur="0.4s" fill="freeze"/>
+      Followers
+    </text>
+    <rect x="351.33333333333337" y="60" width="64" height="64" fill="url(#shineGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="2.6s" begin="1.66s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-70,0; 70,0" dur="2.6s" begin="1.66s" repeatCount="indefinite"/>
+    </rect>
+    <g transform="translate(536.6666666666666,108) scale(0.4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" from="0.65" to="1"
+        begin="0.84s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.34 1.56 0.64 1"/>
+      <g transform="scale(2.5)">
+        <circle r="34" fill="rgba(10,22,48,0.55)" stroke="#3dffa0" stroke-width="1.4" opacity="0.9"/>
+        <circle r="34" fill="none" stroke="#3dffa0" stroke-width="6" opacity="0.25" filter="url(#glow)"/>
+        
+      <g transform="translate(0,-3)">
+        <path d="M -14,-16 L 14,-16 L 12,-2 C 12,7 6,12 0,12 C -6,12 -12,7 -12,-2 Z" fill="#3dffa0" opacity="0.9"/>
+        <path d="M -14,-16 C -22,-16 -22,-4 -13,-2" fill="none" stroke="#3dffa0" stroke-width="2.4"/>
+        <path d="M 14,-16 C 22,-16 22,-4 13,-2" fill="none" stroke="#3dffa0" stroke-width="2.4"/>
+        <rect x="-4" y="12" width="8" height="6" fill="#3dffa0"/>
+        <rect x="-10" y="18" width="20" height="4" rx="2" fill="#3dffa0"/>
+      </g>
+        <circle cx="20" cy="-20" r="11" fill="#050914" stroke="#3dffa0" stroke-width="1.4"/>
+        <text x="20" y="-16" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="9" font-weight="800" fill="#3dffa0">A</text>
+      </g>
+      <text x="0" y="70" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="8" fill="#8ea3c9" transform="scale(2.5)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="1.14s" dur="0.4s" fill="freeze"/>
+      </text>
+    </g>
+    <text x="536.6666666666666" y="168" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="12" fill="#8ea3c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.09s" dur="0.4s" fill="freeze"/>
+      PRs
+    </text>
+    <rect x="504.66666666666663" y="60" width="64" height="64" fill="url(#shineGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="2.6s" begin="1.84s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-70,0; 70,0" dur="2.6s" begin="1.84s" repeatCount="indefinite"/>
+    </rect>
+    <g transform="translate(690.0,108) scale(0.4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.02s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" from="0.65" to="1"
+        begin="1.02s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.34 1.56 0.64 1"/>
+      <g transform="scale(2.5)">
+        <circle r="34" fill="rgba(10,22,48,0.55)" stroke="#3b82ff" stroke-width="1.4" opacity="0.9"/>
+        <circle r="34" fill="none" stroke="#3b82ff" stroke-width="6" opacity="0.25" filter="url(#glow)"/>
+        
+      <g transform="translate(0,-3)">
+        <path d="M -14,-16 L 14,-16 L 12,-2 C 12,7 6,12 0,12 C -6,12 -12,7 -12,-2 Z" fill="#3b82ff" opacity="0.9"/>
+        <path d="M -14,-16 C -22,-16 -22,-4 -13,-2" fill="none" stroke="#3b82ff" stroke-width="2.4"/>
+        <path d="M 14,-16 C 22,-16 22,-4 13,-2" fill="none" stroke="#3b82ff" stroke-width="2.4"/>
+        <rect x="-4" y="12" width="8" height="6" fill="#3b82ff"/>
+        <rect x="-10" y="18" width="20" height="4" rx="2" fill="#3b82ff"/>
+      </g>
+        <circle cx="20" cy="-20" r="11" fill="#050914" stroke="#3b82ff" stroke-width="1.4"/>
+        <text x="20" y="-16" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="9" font-weight="800" fill="#3b82ff">A</text>
+      </g>
+      <text x="0" y="70" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="8" fill="#8ea3c9" transform="scale(2.5)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="1.32s" dur="0.4s" fill="freeze"/>
+      </text>
+    </g>
+    <text x="690.0" y="168" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="12" fill="#8ea3c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.27s" dur="0.4s" fill="freeze"/>
+      Repositories
+    </text>
+    <rect x="658.0" y="60" width="64" height="64" fill="url(#shineGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="2.6s" begin="2.02s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-70,0; 70,0" dur="2.6s" begin="2.02s" repeatCount="indefinite"/>
+    </rect>
+    <g transform="translate(843.3333333333334,108) scale(0.4)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.45s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" from="0.65" to="1"
+        begin="1.20s" dur="0.55s" fill="freeze" calcMode="spline" keySplines="0.34 1.56 0.64 1"/>
+      <g transform="scale(2.5)">
+        <circle r="34" fill="rgba(10,22,48,0.55)" stroke="#8b6bff" stroke-width="1.4" opacity="0.9"/>
+        <circle r="34" fill="none" stroke="#8b6bff" stroke-width="6" opacity="0.25" filter="url(#glow)"/>
+        
+      <g transform="translate(0,-3)">
+        <path d="M -14,-16 L 14,-16 L 12,-2 C 12,7 6,12 0,12 C -6,12 -12,7 -12,-2 Z" fill="#8b6bff" opacity="0.9"/>
+        <path d="M -14,-16 C -22,-16 -22,-4 -13,-2" fill="none" stroke="#8b6bff" stroke-width="2.4"/>
+        <path d="M 14,-16 C 22,-16 22,-4 13,-2" fill="none" stroke="#8b6bff" stroke-width="2.4"/>
+        <rect x="-4" y="12" width="8" height="6" fill="#8b6bff"/>
+        <rect x="-10" y="18" width="20" height="4" rx="2" fill="#8b6bff"/>
+      </g>
+        <circle cx="20" cy="-20" r="11" fill="#050914" stroke="#8b6bff" stroke-width="1.4"/>
+        <text x="20" y="-16" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="9" font-weight="800" fill="#8b6bff">S</text>
+      </g>
+      <text x="0" y="70" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="8" fill="#8ea3c9" transform="scale(2.5)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.4s" fill="freeze"/>
+      </text>
+    </g>
+    <text x="843.3333333333334" y="168" text-anchor="middle" font-family="'Poppins',sans-serif" font-size="12" fill="#8ea3c9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.4s" fill="freeze"/>
+      Experience
+    </text>
+    <rect x="811.3333333333334" y="60" width="64" height="64" fill="url(#shineGrad)" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0" keyTimes="0;0.5;1" dur="2.6s" begin="2.20s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-70,0; 70,0" dur="2.6s" begin="2.20s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0.5" y="0.5" width="919" height="199" rx="17.5" fill="none" stroke="rgba(56,217,255,0.35)" stroke-width="1.2"/>
+  </g>
+</svg>
