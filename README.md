@@ -85,7 +85,7 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact&hide_border=true"/>
 </p>
 <p align="center">
-  <img src="./trophy.svg"/>
+  <img src="./trophies.svg"/>
 </p>
 > "Code. Learn. Build. Repeat."
 
