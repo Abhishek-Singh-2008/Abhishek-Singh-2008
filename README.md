@@ -75,7 +75,7 @@
 
 <p align="center">
   <img src="./stats.svg" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-Singh-2008&layout=compact&theme=github-dark-blue&hide_border=true"/>
+  <img src="./langs.svg" height="180"/>
 </p>
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
