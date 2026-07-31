@@ -74,8 +74,8 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="./stats.svg" height="180"/>
-  <img src="./langs.svg" height="180"/>
+  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/generated/overview.svg" height="180"/>
+  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/generated/languages.svg" height="180"/>
 </p>
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
