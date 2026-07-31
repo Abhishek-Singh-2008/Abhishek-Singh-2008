@@ -1,6 +1,6 @@
 <svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId">
-<title id="titleId">Urban-Issue-Tracker</title>
-<desc id="descId">A MERN app for citizens to report and track civic issues like potholes and broken lights.</desc>
+<title id="titleId">Urban-Company-Replica</title>
+<desc id="descId">A MERN app for citizens to provide dailylife solutions.</desc>
 <style>
   .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
   .card-title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
