@@ -62,20 +62,20 @@
 ## ⭐ Featured Projects
 
 <p align="center">
-  <img src="./assets/pin-ai.svg"/>
-  <img src="./assets/pin-urban.svg"/>
+  <img src="./pin-ai.svg"/>
+  <img src="./pin-urban.svg"/>
 </p>
 
 <p align="center">
-  <img src="./assets/pin-job.svg"/>
-  <img src="./assets/pin-management.svg"/>
+  <img src="./pin-job.svg"/>
+  <img src="./pin-management.svg"/>
 </p>
 
 ## 📊 GitHub Analytics
 
 <p align="center">
   <img src="./stats.svg" height="180"/>
-  <img src="./assets/top-langs.svg" height="180"/>
+  <img src="./top-langs.svg" height="180"/>
 </p>
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
@@ -85,7 +85,7 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact&hide_border=true"/>
 </p>
 <p align="center">
-  <img src="./assets/trophy.svg"/>
+  <img src="./trophy.svg"/>
 </p>
 > "Code. Learn. Build. Repeat."
 
