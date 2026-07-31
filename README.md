@@ -74,7 +74,7 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="./assets/stats.svg" height="180"/>
+  <img src="./stats.svg" height="180"/>
   <img src="./assets/top-langs.svg" height="180"/>
 </p>
 <p align="center">
