@@ -1,9 +1,9 @@
 name: Generate GitHub Stats Images
 on:
   schedule:
-    # Runs once every 24 hours (adjust cron as you like)
+    # Runs once every 24 hours
     - cron: "0 0 * * *"
-  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+  workflow_dispatch: {}   # trigger manually from Actions tab
   push:
     branches:
       - main
@@ -11,12 +11,37 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Generate images
-        uses: jstrieb/github-stats@master
+      # --- Overview Stats (overview.svg) ---
+      - name: Generate overview stats
+        uses: lowlighter/metrics@latest
         with:
-          username: Abhishek-Singh-2008
-          exclude_repos: Abhishek-Singh-2008/Abhishek-Singh-2008
-          # exclude_langs: html,css        # optional, uncomment to exclude langs
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
+          user: Abhishek-Singh-2008
+          filename: generated/overview.svg
+          base: header, activity, community, repositories
+          output_action: commit
+          committer_branch: generated
+          config_timezone: Asia/Kolkata
+
+      # --- Language Stats (languages.svg) ---
+      - name: Generate language stats
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          user: Abhishek-Singh-2008
+          filename: generated/languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          output_action: commit
+          committer_branch: generated
+          config_timezone: Asia/Kolkata
