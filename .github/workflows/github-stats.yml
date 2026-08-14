@@ -1,22 +1,19 @@
 name: Generate GitHub Stats Images
 on:
   schedule:
-    # Runs once every 24 hours (adjust cron as you like)
     - cron: "0 0 * * *"
-  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+  workflow_dispatch: {}
   push:
     branches:
       - main
 
+# This workflow is now kept minimal.
+# Stats cards (overview + languages) are served via github-readme-stats API directly in README.
+# This workflow can be used for future automation if needed.
+
 jobs:
-  build:
+  placeholder:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate images
-        uses: jstrieb/github-stats@master
-        with:
-          username: Abhishek-Singh-2008
-          exclude_repos: Abhishek-Singh-2008/Abhishek-Singh-2008
-          # exclude_langs: html,css        # optional, uncomment to exclude langs
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: No-op
+        run: echo "Stats are now served via github-readme-stats API. No generation needed."
