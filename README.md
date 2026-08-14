@@ -74,8 +74,8 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhishek-Singh-2008&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-Singh-2008&layout=compact&theme=github_dark&hide_border=true&langs_count=8" height="180"/>
+  <img src="./assets/stats.svg" height="180"/>
+  <img src="./assets/top-langs.svg" height="180"/>
 </p>
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>

@@ -66,7 +66,7 @@ jobs:
           # Deployment Protection / login wall, so every "successful"
           # curl was actually downloading the Vercel sign-in page HTML,
           # not an SVG. That's why stats/top-langs/pins were broken.
-          BASE="https://github-readme-stats.vercel.app"
+          BASE="https://github-readme-stats-abhishek20082005.vercel.app"
           TROPHY_BASE="https://github-profile-trophy.vercel.app"
 
           # GitHub Stats
