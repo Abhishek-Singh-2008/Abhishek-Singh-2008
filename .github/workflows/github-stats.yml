@@ -3,7 +3,7 @@ on:
   schedule:
     # Runs once every 24 hours
     - cron: "0 0 * * *"
-  workflow_dispatch: {}   # trigger manually from Actions tab
+  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -15,6 +15,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       # --- Overview Stats (overview.svg) ---
       - name: Generate overview stats
         uses: lowlighter/metrics@latest
@@ -24,7 +27,6 @@ jobs:
           filename: generated/overview.svg
           base: header, activity, community, repositories
           output_action: commit
-          committer_branch: generated
           config_timezone: Asia/Kolkata
 
       # --- Language Stats (languages.svg) ---
@@ -40,8 +42,5 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_load: 300
-          plugin_languages_recent_days: 14
           output_action: commit
-          committer_branch: generated
           config_timezone: Asia/Kolkata

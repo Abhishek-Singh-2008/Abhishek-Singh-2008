@@ -76,8 +76,8 @@
 <p align="center">
   <!-- <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/generated/overview.svg" height="180"/>
   <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/generated/languages.svg" height="180"/> -->
-  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/github-stats/generated/overview.svg" height="180"/>
-  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/github-stats/generated/languages.svg" height="180"/>
+  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/main/generated/overview.svg" height="180"/>
+  <img src="https://raw.githubusercontent.com/Abhishek-Singh-2008/Abhishek-Singh-2008/main/generated/languages.svg" height="180"/>
 </p>
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
