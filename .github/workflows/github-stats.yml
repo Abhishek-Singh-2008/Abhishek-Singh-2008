@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate images
-        uses: jstrieb/github-stats@master
+        uses: Abhishek-Singh-2008/github-stats@master
         with:
           username: Abhishek-Singh-2008
           exclude_repos: Abhishek-Singh-2008/Abhishek-Singh-2008
