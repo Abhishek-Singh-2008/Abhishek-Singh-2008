@@ -83,9 +83,9 @@
 <img src="https://streak-stats.demolab.com?user=Abhishek-Singh-2008&theme=github-dark-blue&hide_border=true"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-Singh-2008&theme=github-compact&hide_border=true"/>
-</p>
+</p> -->
 <p align="center">
   <img src="./trophies.svg"/>
 </p>
