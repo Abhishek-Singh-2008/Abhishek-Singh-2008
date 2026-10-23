@@ -39,7 +39,7 @@
 ## 🌐 Connect
 
 <p>
-<a href="https://linkedin.com/in/abhishek-singh-2008"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/></a>
+<a href="https://linkedin.com/in/abhishek-singh-su24003"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/></a>
 <a href="https://leetcode.com/abhishek_2008"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
 <a href="https://instagram.com/_.abhisheksingh1420"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 </p>
